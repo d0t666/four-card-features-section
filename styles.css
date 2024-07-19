@@ -97,6 +97,9 @@ a {
     border-top: 4px solid var(--cyan);
     display: flex;
     flex-direction: column;
+
+    user-select: none;
+    cursor: pointer;
 }
 .feature_item--orange {
     border-color: var(--orange);
